@@ -4,7 +4,13 @@ from speak import speak_async_system
 from listen import listen_once, transcribe_with_noise_reduction
 from personality import get_system_message
 from memory.conversational_memory import ConversationManager
-from config import GLOBAL_LLM, OLLAMA_LLM, OUTPUT_FILE, RECORDING_TIME_IN_SECONDS
+from config import (
+    GLOBAL_LLM,
+    OLLAMA_LLM,
+    OUTPUT_FILE,
+    RECORDING_TIME_IN_SECONDS,
+    AI_NAME,
+)
 
 
 chat_model = GLOBAL_LLM
@@ -79,7 +85,7 @@ async def handle_conversation_flow(cm: ConversationManager):
 async def conversation_loop():
     cm = ConversationManager()
     print("🤖 Starting conversation...")
-    greeting = "Assalamualaikum , I am Sadaf your helpful assistant. How can I assist you today?"
+    greeting = f"Assalamualaikum , I am {AI_NAME} your helpful assistant. How can I assist you today?"
     await speak_async_system(greeting)
 
     start = time.time()

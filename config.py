@@ -35,14 +35,14 @@ VOICE = "Samantha"  # Voice name for text-to-speech
 MAX_RESPONSE_WORDS = 70  # Maximum number of words per spoken response
 
 # ------------------ Audio Recording Config ------------------
-TIMEOUT = 4  # Max seconds to wait for speech to start after listening begins
+TIMEOUT = 3  # Max seconds to wait for speech to start after listening begins
 PHRASE_TIME_LIMIT = 30  # Max duration (seconds) for one continuous speech segment
 OUTPUT_FILE = "transcriptions.txt"  # File to save speech-to-text transcripts
 RECORDING_TIME_IN_SECONDS = 900  # Max continuous recording session time in seconds
 
 # ------------------ Speech Recognition Tuning ------------------
-PAUSE_THRESHOLD = 2.5  # Seconds of silence before considering the phrase complete
-ENERGY_THRESHOLD = 300  # Minimum volume level to consider sound as speech (vs. noise)
+PAUSE_THRESHOLD = 2  # Seconds of silence before considering the phrase complete
+ENERGY_THRESHOLD = 400  # Minimum volume level to consider sound as speech (vs. noise)
 DYNAMIC_ENERGY_THRESHOLD = (
     True  # Whether to auto-adjust ENERGY_THRESHOLD to background noise
 )
