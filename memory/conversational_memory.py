@@ -59,16 +59,16 @@ class ConversationManager:
             if ctx.experiential_facts:
                 for fact in ctx.experiential_facts:
                     if fact and fact.strip():
-                        self.experiential_store.add_document(fact)
+                        val = self.experiential_store.add_document(fact)
                         self._list_of_experiential_facts_stored_from_conversation.append(
-                            fact
+                            fact.strip() if val != "DUPLICATE_SKIPPED" else val
                         )
             if ctx.personal_facts:
                 for fact in ctx.personal_facts:
                     if fact and fact.strip():
-                        self.personal_store.add_document(fact)
+                        val = self.personal_store.add_document(fact)
                         self._list_of_personal_facts_stored_from_conversation.append(
-                            fact
+                            fact.strip() if val != "DUPLICATE_SKIPPED" else val
                         )
 
     def get_context_for_ai(self, user_query: str) -> str:

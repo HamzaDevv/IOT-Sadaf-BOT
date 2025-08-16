@@ -29,6 +29,7 @@ CHROMA_DB_DIR = "./chroma_db"  # Directory path for Chroma vector DB storage
 MIN_IMPORTANCE_TO_STORE = 0.0  # Minimum importance score before storing memory
 N_FACTS_CONTEXT = 3  # Number of facts to retrieve for context in responses
 SESSION_METADATA_FILE = "session_metadata.json"  # File for saving session metadata
+THRESHOLD = 0.85  # threshold for similarity to avoid duplicate storage of data
 
 # ------------------ TTS/Voice Config ------------------
 VOICE = "Samantha"  # Voice name for text-to-speech

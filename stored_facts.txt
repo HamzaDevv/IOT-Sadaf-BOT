@@ -1,101 +1,45 @@
 experiential_facts:
-The user saw how technology can solve real problems while aligning with halal earning.
-The user overcomes challenges by being calm.
-The user likes to listen to Quran
-The user likes to watch YouTube videos
-The user likes to watch movies
-The user likes to eat outside
-The user likes to read Quran
-The user likes to eat tasty food
-Celebrating Eid together when I was young - the smells, clothes, and joy.
+DUPLICATE_SKIPPED
+DUPLICATE_SKIPPED
+DUPLICATE_SKIPPED
+DUPLICATE_SKIPPED
+DUPLICATE_SKIPPED
+DUPLICATE_SKIPPED
+DUPLICATE_SKIPPED
+DUPLICATE_SKIPPED
+DUPLICATE_SKIPPED
+DUPLICATE_SKIPPED
+DUPLICATE_SKIPPED
+DUPLICATE_SKIPPED
+DUPLICATE_SKIPPED
 personal_facts:
-Seeking knowledge is an ibadah.
-Morning routine includes Fajr prayer.
-Morning routine includes Quran recitation.
-Morning routine includes exercise.
-Morning routine includes planning the day with istikhara.
-Handles stress through sabr.
-Handles stress through salat.
-Handles stress by remembering that Allah tests those He loves.
-Loves authentic Hyderabadi biryani.
-Loves Middle Eastern food like mandi.
-Prefers teams that share Islamic values.
-Prefers teams that share work ethic.
-The user will never compromise on their deen (faith) or Islamic values.
-Success is achieving Jannah by pleasing Allah while excelling in both dunia and akhirah.
-The user is working on waking up consistently for Tahajjud and improving their time management.
-The user wants to work at an Islamic tech company or create their own halal startup.
-The user is Muslim.
-The user's ideal person is Prophet Muhammad Sallallahu alaihi wa sallam.
-The user admires their father and mother.
-The user hates music
-Quran Sharif has improved the user and has significant impact on the user
-The user lived in Indore and it feels like the user's actual home
-The user is currently studying in IIEST Shibpur (W.B) pursuing B.Tech in IT.
-Wants to run a successful halal tech business
-Wants to perform Hajj with family
-Wants to learn financial literacy according to Islamic principles
-Wants to learn emotional intelligence
-Wants to solve poverty through zakat-based systems
-Wants to solve poverty through interest-free finance
-Wants to travel to Makkah
-Wants to travel to Madinah
-Wants to travel to Turkey for its Islamic history and culture
-Gives tech support to their parents
-Conversation ended and stored successfully.
-experiential_facts:
-
-personal_facts:
-The user enjoys reading and listening to the Quran.
-The user admires Prophet Muhammad Sallallahu alaihi wa sallam.
-The user is trying to wake up for Tahajjud.
-The user likes to have a memory and share personal thoughts with the AI.
-Conversation ended and stored successfully.
-experiential_facts:
-The user's morning routine includes Fajr prayer.
-The user's morning routine includes Quran recitation.
-The user's morning routine includes exercise.
-The user's morning routine includes planning the day with istikhara.
-The user handles stress through sabr.
-The user handles stress through salat.
-The user remembers that Allah tests those He loves when handling stress.
-The user saw how technology can solve real problems while aligning with halal earning.
-The user overcomes challenges by being calm.
-The user likes to listen to Quran
-The user likes to watch YouTube videos
-The user likes to watch movies
-The user likes to eat outside
-The user likes to read Quran
-The user likes to eat tasty food
-Celebrating Eid together when I was young - the smells, clothes, and joy.
-personal_facts:
-The user loves authentic Hyderabadi biryani.
-The user loves Middle Eastern food like mandi.
-The user prefers teams that share Islamic values.
-The user prefers teams with a strong work ethic.
-The user will never compromise on their deen (faith) or Islamic values.
-Success is achieving Jannah by pleasing Allah while excelling in both dunia and akhirah.
-The user is working on waking up consistently for Tahajjud and improving their time management.
-The user wants to work at an Islamic tech company or create their own halal startup.
-The user is Muslim.
-The user's ideal person is Prophet Muhammad Sallallahu alaihi wa sallam.
-The user admires their father and mother.
-The user hates music
-Quran Sharif has improved the user and has significant impact on the user
-The user lived in Indore and it feels like the user's actual home
-The user is currently studying in IIEST Shibpur (W.B) pursuing B.Tech in IT.
-Wants to run a successful halal tech business
-Wants to perform Hajj with family
-Wants to learn financial literacy according to Islamic principles
-Wants to learn emotional intelligence
-Wants to solve poverty through zakat-based systems
-Wants to solve poverty through interest-free finance
-Wants to travel to Makkah and Madinah
-Wants to travel to Turkey for its Islamic history and culture
-Gives tech support to parents
-Conversation ended and stored successfully.
-experiential_facts:
-
-personal_facts:
-
+DUPLICATE_SKIPPED
+DUPLICATE_SKIPPED
+DUPLICATE_SKIPPED
+DUPLICATE_SKIPPED
+DUPLICATE_SKIPPED
+DUPLICATE_SKIPPED
+DUPLICATE_SKIPPED
+DUPLICATE_SKIPPED
+DUPLICATE_SKIPPED
+DUPLICATE_SKIPPED
+DUPLICATE_SKIPPED
+DUPLICATE_SKIPPED
+DUPLICATE_SKIPPED
+DUPLICATE_SKIPPED
+DUPLICATE_SKIPPED
+DUPLICATE_SKIPPED
+DUPLICATE_SKIPPED
+DUPLICATE_SKIPPED
+DUPLICATE_SKIPPED
+Running a successful halal tech business
+Performing Hajj with my family
+Learning financial literacy according to Islamic principles
+Learning emotional intelligence
+Solving poverty through zakat-based systems
+Solving poverty through interest-free finance
+Traveling to Makkah
+Traveling to Madinah
+Traveling to Turkey for its Islamic history and culture
+Giving tech support to my parents
 Conversation ended and stored successfully.
