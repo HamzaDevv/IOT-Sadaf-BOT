@@ -1,45 +1,5 @@
 experiential_facts:
-DUPLICATE_SKIPPED
-DUPLICATE_SKIPPED
-DUPLICATE_SKIPPED
-DUPLICATE_SKIPPED
-DUPLICATE_SKIPPED
-DUPLICATE_SKIPPED
-DUPLICATE_SKIPPED
-DUPLICATE_SKIPPED
-DUPLICATE_SKIPPED
-DUPLICATE_SKIPPED
-DUPLICATE_SKIPPED
-DUPLICATE_SKIPPED
-DUPLICATE_SKIPPED
+
 personal_facts:
-DUPLICATE_SKIPPED
-DUPLICATE_SKIPPED
-DUPLICATE_SKIPPED
-DUPLICATE_SKIPPED
-DUPLICATE_SKIPPED
-DUPLICATE_SKIPPED
-DUPLICATE_SKIPPED
-DUPLICATE_SKIPPED
-DUPLICATE_SKIPPED
-DUPLICATE_SKIPPED
-DUPLICATE_SKIPPED
-DUPLICATE_SKIPPED
-DUPLICATE_SKIPPED
-DUPLICATE_SKIPPED
-DUPLICATE_SKIPPED
-DUPLICATE_SKIPPED
-DUPLICATE_SKIPPED
-DUPLICATE_SKIPPED
-DUPLICATE_SKIPPED
-Running a successful halal tech business
-Performing Hajj with my family
-Learning financial literacy according to Islamic principles
-Learning emotional intelligence
-Solving poverty through zakat-based systems
-Solving poverty through interest-free finance
-Traveling to Makkah
-Traveling to Madinah
-Traveling to Turkey for its Islamic history and culture
-Giving tech support to my parents
+
 Conversation ended and stored successfully.

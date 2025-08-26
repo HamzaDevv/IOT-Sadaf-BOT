@@ -8,6 +8,7 @@ load_dotenv()
 
 # ------------------ AI Assistant Config ------------------
 AI_NAME = "Sadaf"  # Name of the AI assistant
+PERSONALITY = "helpful_assistant"
 
 # ------------------ LLM Config ------------------
 TEMPERATURE_OF_LLM = 0.0  # 0.0 = deterministic output, 1.0 = more creative
@@ -49,4 +50,10 @@ DYNAMIC_ENERGY_THRESHOLD = (
 )
 _NOISE_PROFILE: Optional[np.ndarray] = (
     None  # Stores pre-computed background noise profile for reuse
+)
+
+
+# ------------------ tools Config ------------------
+GEMINI_VISION_LLM = ChatGoogleGenerativeAI(
+    model="gemini-2.0-flash", temperature=TEMPERATURE_OF_LLM
 )

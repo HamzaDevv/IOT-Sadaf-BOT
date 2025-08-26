@@ -1,12 +1,10 @@
-14:43:50 - what is my name
-14:44:07 - tell me Sadaf where I study current
-14:44:28 - tell me what I am currently
-14:44:54 - tell me about my current features of Technology which I am working on
-14:45:19 - no nothing
-14:45:32 - ok good bye
-14:45:58 - see you later
-14:53:10 - tell me what is my
-14:53:37 - just tell me what is my name
-14:53:53 - what's the weather outside today
-14:54:16 - ok thank you
-14:54:29 - see you later
+22:01:27 - take a image of him and describe him
+22:02:04 - ok good tell me what this person
+22:02:24 - and tell me how this person looks like
+22:03:01 - ok terminate
+12:06:57 - hello Sada what is my name
+12:07:25 - tell me where do I live
+12:07:49 - ok have a look and tell me what's the person looks like in front of you
+12:08:18 - tell me and have a look what is
+12:09:01 - can you tell me how you perform long term memory
+12:09:29 - see you later Allah Hafiz

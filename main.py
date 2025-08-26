@@ -1,17 +1,21 @@
+# main.py
 import time
 import asyncio
 from speak import speak_async_system
 from listen import listen_once, transcribe_with_noise_reduction
 from personality import get_system_message
 from memory.conversational_memory import ConversationManager
+from tools.camera_tool import camera_tool
+import re
+
 from config import (
     GLOBAL_LLM,
     OLLAMA_LLM,
     OUTPUT_FILE,
     RECORDING_TIME_IN_SECONDS,
     AI_NAME,
+    PERSONALITY,
 )
-
 
 chat_model = GLOBAL_LLM
 
@@ -21,11 +25,14 @@ async def save_text_async(text):
         await asyncio.to_thread(lambda: open(OUTPUT_FILE, "a").write(text + "\n"))
 
 
-async def get_ai_response_async(context_str: str, user_input: str):
-    if not context_str:
-        return "I didn't understand that. Can you please repeat?"
+async def stream_ai_response_async(context_str: str, user_input: str):
+    """Get full AI response, break into chunks, and speak like a human."""
 
-    system_message = get_system_message("helpful_assistant")
+    if not context_str:
+        await speak_async_system("I didn't understand that. Can you please repeat?")
+        return ""
+
+    system_message = get_system_message(PERSONALITY)
 
     final_prompt = f"""
     {system_message}
@@ -37,26 +44,64 @@ async def get_ai_response_async(context_str: str, user_input: str):
     
     Answer the user's query directly and concisely, like a human.
     """
-    response = await asyncio.to_thread(chat_model.invoke, final_prompt)
-    return response.content.strip()
+
+    # ✅ Get full response at once
+    response = await chat_model.ainvoke(final_prompt)
+    response_text = response.content.strip()
+
+    # ✅ Heuristic chunking
+    # 1. Split into sentences
+    raw_chunks = re.split(r"(?<=[.!?])\s+", response_text)
+
+    # 2. Further split long sentences into ~15–20 word chunks
+    chunks = []
+    for chunk in raw_chunks:
+        words = chunk.split()
+        if len(words) > 20:
+            for i in range(0, len(words), 20):
+                chunks.append(" ".join(words[i : i + 20]))
+        else:
+            if chunk.strip():
+                chunks.append(chunk.strip())
+
+    # ✅ Speak each chunk with a pause
+    for part in chunks:
+        await speak_async_system(part)
+        await asyncio.sleep(0.2)
+
+    return response_text
+
+
+def is_visual_query(user_input: str) -> bool:
+    """Check if the query requires using the camera."""
+    vision_keywords = ["see", "look", "image", "picture", "camera", "visual", "show"]
+    return any(word in user_input.lower() for word in vision_keywords)
 
 
 async def handle_conversation_flow(cm: ConversationManager):
     audio = await listen_once()
     if audio is None:
-        fallback = ["Can you say that again?", "I didn't catch that", "Repeat please?"]
-        # Use a simple counter or a timestamp to vary the fallback message
-        message_index = int(time.time()) % len(fallback)
-        prompt = fallback[message_index]
-        await speak_async_system(prompt)
-        return True  # Continue the conversation loop
+        # fallback = ["Can you say that again?", "I didn't catch that", "Repeat please?"]
+        # message_index = int(time.time()) % len(fallback)
+        # prompt = fallback[message_index]
+        # await speak_async_system(prompt)
+        return True
 
     user_text_line = await transcribe_with_noise_reduction(audio)
     if not user_text_line:
-        return True  # Continue the conversation loop
+        return True
+
+    try:
+        user_input = user_text_line.split(" - ")[1].strip()
+    except IndexError:
+        return True
+
+    # # ✅ Only proceed if AI_NAME is mentioned (robust: anywhere, case-insensitive)
+    # if AI_NAME.lower() not in user_input.lower():
+    #     # do nothing, just ignore input
+    #     return True
 
     asyncio.create_task(save_text_async(user_text_line))
-    user_input = user_text_line.split(" - ")[1].strip()
 
     if any(
         word in user_input.lower() for word in ["terminate", "alif", "see you later"]
@@ -69,17 +114,20 @@ async def handle_conversation_flow(cm: ConversationManager):
         message_index = int(time.time()) % len(farewell)
         msg = farewell[message_index]
         await speak_async_system(msg)
-        return False  # End the conversation loop
+        return False
 
-    # Build context for AI using cm
+    # ✅ Only call camera_tool if it's a visual query
+    if is_visual_query(user_input):
+        vision_response = await camera_tool(user_input)
+        cm.process_turn(user_input, vision_response)
+        await speak_async_system(vision_response)
+        return True
+
+    # Build context for AI
     context_str = cm.get_context_for_ai(user_input)
-    response = await get_ai_response_async(context_str, user_input)
-
-    # Add the new AI response to memory
+    response = await stream_ai_response_async(context_str, user_input)
     cm.process_turn(user_input, response)
-
-    await speak_async_system(response)
-    return True  # Continue the conversation loop
+    return True
 
 
 async def conversation_loop():
@@ -102,9 +150,7 @@ async def conversation_loop():
             print(f"Error: {e}")
             await asyncio.sleep(0.5)
 
-    # save the left over conversation to vector store
     cm.end_conversation()
-
     print(f"\n📝 Transcriptions saved to {OUTPUT_FILE}")
 
 

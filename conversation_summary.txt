@@ -1,4 +1,14 @@
 {
+  "summary": "The AI knows the user's first name is Amir and does not have access to the user's full name.",
+  "entity_relations": null,
+  "experiential_facts": null,
+  "personal_facts": [
+    "The user's first name is Amir."
+  ],
+  "timestamp": "2024-04-29T17:24:41Z"
+}
+
+{
   "summary": "The user's name is Amir Hamza Khan. The AI is Amir's personal voice assistant and friend. The user likes to listen to Quran, watch YouTube videos and movies, and eat outside. The user likes to read Quran and eat tasty food. Quran Sharif has improved the user and has a significant impact on them. The user lived in Indore and feels like it is their actual home. The user is currently studying in IIEST Shibpur (W.B) pursuing B.Tech in IT.",
   "entity_relations": null,
   "experiential_facts": [
@@ -8,15 +18,16 @@
     "The user likes to go outside to eat something.",
     "The user likes to watch movies.",
     "The user likes to read Quran.",
-    "The user likes to eat tasty food."
-  ],
-  "personal_facts": [
+    "The user likes to eat tasty food.",
     "Quran Sharif has improved the user.",
     "Quran Sharif has a significant impact on the user.",
     "The user lived in Indore and feels like it is their actual home.",
     "The user is currently studying in IIEST Shibpur (W.B) pursuing B.Tech in IT."
   ],
-  "timestamp": "2024-07-24T18:15:43Z"
+  "personal_facts": [
+    "The AI is Amir's personal voice assistant and friend."
+  ],
+  "timestamp": "2024-02-22T10:00:00Z"
 }
 
 The user's name is Amir Hamza Khan. The AI is Amir's personal voice assistant and friend. The user likes to listen to Quran, watch YouTube videos and movies, and eat outside. The user likes to read Quran and eat tasty food. Quran Sharif has improved the user and has a significant impact on them. The user lived in Indore and feels like it is their actual home. The user is currently studying in IIEST Shibpur (W.B) pursuing B.Tech in IT.
@@ -45,11 +56,10 @@ The user has good leadership skills. The user is Muslim. The user overcomes chal
   "personal_facts": [
     "The user will never compromise on their deen (faith) or Islamic values.",
     "Success is achieving Jannah by pleasing Allah while excelling in both dunia and akhirah.",
-    "The user is working on waking up consistently for Tahajjud.",
-    "The user is working on improving their time management.",
+    "The user is working on waking up consistently for Tahajjud and improving their time management.",
     "The user wants to work at an Islamic tech company or create their own halal startup."
   ],
-  "timestamp": "2024-04-29T10:00:00Z"
+  "timestamp": "2024-07-24T14:17:00Z"
 }
 
 The user will never compromise on their deen (faith) or Islamic values. Success is achieving Jannah by pleasing Allah while excelling in both dunia and akhirah. The user is working on waking up consistently for Tahajjud and improving their time management. The user saw how technology can solve real problems while aligning with halal earning. The user wants to work at an Islamic tech company or create their own halal startup.
@@ -74,23 +84,859 @@ The user will never compromise on their deen (faith) or Islamic values. Success 
 
 The user stated that seeking knowledge is an ibadah when done with the right intention. The user's morning routine includes Fajr prayer, Quran recitation, exercise, and planning the day with istikhara. The user handles stress through sabr, salat, and remembering that Allah tests those He loves. The user loves authentic Hyderabadi biryani and Middle Eastern food like mandi. The user prefers teams that share Islamic values and work ethic.
 {
-  "summary": "The user wants to run a successful halal tech business and perform Hajj with their family. They want to learn financial literacy according to Islamic principles and emotional intelligence. They want to solve poverty through zakat-based systems and interest-free finance. The user's favorite memory with family is celebrating Eid together when they were young. The user wants to travel to Makkah and Madinah first, then Turkey for its Islamic history and culture. The user sometimes gives tech support to their parents.",
+  "summary": "The user wants to run a successful halal tech business and perform Hajj with their family. They want to learn financial literacy according to Islamic principles and emotional intelligence. They want to solve poverty through zakat-based systems and interest-free finance. They have a favorite memory of celebrating Eid together when they were young, including the smells, clothes, and joy. They want to travel to Makkah and Madinah first, then Turkey for its Islamic history and culture. They sometimes give tech support to their parents.",
   "entity_relations": null,
   "experiential_facts": [
     "Celebrating Eid together when I was young - the smells, clothes, and joy."
   ],
   "personal_facts": [
-    "Running a successful halal tech business",
-    "Performing Hajj with my family",
-    "Learning financial literacy according to Islamic principles",
-    "Learning emotional intelligence",
-    "Solving poverty through zakat-based systems",
-    "Solving poverty through interest-free finance",
-    "Traveling to Makkah",
-    "Traveling to Madinah",
-    "Traveling to Turkey for its Islamic history and culture",
-    "Giving tech support to my parents"
+    "Wants to run a successful halal tech business",
+    "Wants to perform Hajj with family",
+    "Wants to learn financial literacy according to Islamic principles",
+    "Wants to learn emotional intelligence",
+    "Wants to solve poverty through zakat-based systems",
+    "Wants to solve poverty through interest-free finance",
+    "Wants to travel to Makkah",
+    "Wants to travel to Madinah",
+    "Wants to travel to Turkey for its Islamic history and culture",
+    "Gives tech support to their parents"
   ],
   "timestamp": "2024-01-01T00:00:00Z"
+}
+
+{
+  "summary": "The user's name is Amir Hamza Khan. The AI is Amir's personal voice assistant and friend. The user likes to listen to Quran, watch YouTube videos and movies, and eat outside. The user likes to read Quran and eat tasty food. Quran Sharif has improved the user and has a significant impact on them. The user lived in Indore and feels like it is their actual home. The user is currently studying in IIEST Shibpur (W.B) pursuing B.Tech in IT.",
+  "entity_relations": null,
+  "experiential_facts": [
+    "The user likes to listen to Quran.",
+    "The user hates music.",
+    "The user likes to watch YouTube videos.",
+    "The user likes to go outside to eat something.",
+    "The user likes to watch movies.",
+    "The user likes to read Quran.",
+    "The user likes to eat tasty food."
+  ],
+  "personal_facts": [
+    "Quran Sharif has improved the user.",
+    "Quran Sharif has a significant impact on the user.",
+    "The user lived in Indore and feels like it is their actual home.",
+    "The user is currently studying in IIEST Shibpur (W.B) pursuing B.Tech in IT."
+  ],
+  "timestamp": "2024-07-24T18:15:43Z"
+}
+
+The user's name is Amir Hamza Khan. The AI is Amir's personal voice assistant and friend. The user likes to listen to Quran, watch YouTube videos and movies, and eat outside. The user likes to read Quran and eat tasty food. Quran Sharif has improved the user and has a significant impact on them. The user lived in Indore and feels like it is their actual home. The user is currently studying in IIEST Shibpur (W.B) pursuing B.Tech in IT.
+{
+  "summary": "The user has good leadership skills. The user is Muslim. The user overcomes challenges by being calm. The user's ideal person is Prophet Muhammad Sallallahu alaihi wa sallam. The user admires their father and mother. The user wants to achieve a high package job. The user wants to take their family for Hajj with their own money. The user wants to do Umrah by themself. The user wants to start a business. The user wants to submit fully to Allah. The user wants to have great iman. The user wants to learn Quran by heart. The user wants to learn about Islamic knowledge. The user wants to learn about AI booming technology. The user wants to learn to be a good and virtuous person.",
+  "entity_relations": null,
+  "experiential_facts": [
+    "The user overcomes challenges by being calm."
+  ],
+  "personal_facts": [
+    "The user is Muslim.",
+    "The user's ideal person is Prophet Muhammad Sallallahu alaihi wa sallam.",
+    "The user admires their father and mother."
+  ],
+  "timestamp": "2024-07-24T14:17:00Z"
+}
+
+The user has good leadership skills. The user is Muslim. The user overcomes challenges by being calm. The user's ideal person is Prophet Muhammad Sallallahu alaihi wa sallam. The user admires their father and mother. The user wants to achieve a high package job. The user wants to take their family for Hajj with their own money. The user wants to do Umrah by themself. The user wants to start a business. The user wants to submit fully to Allah. The user wants to have great iman. The user wants to learn Quran by heart. The user wants to learn about Islamic knowledge. The user wants to learn about AI booming technology. The user wants to learn to be a good and virtuous person.
+{
+  "summary": "The user's name is Amir. The user studies at IIEST Shibpur.",
+  "entity_relations": null,
+  "experiential_facts": null,
+  "personal_facts": null,
+  "timestamp": "2024-04-29T10:00:00Z"
+}
+
+{
+  "summary": "The AI assistant, Sadaf, knows the user loves Middle Eastern food like mandi and authentic Hyderabadi biryani. The user also enjoys tasty food and eating outside.",
+  "entity_relations": null,
+  "experiential_facts": null,
+  "personal_facts": [
+    "The user loves Middle Eastern food like mandi.",
+    "The user loves authentic Hyderabadi biryani.",
+    "The user enjoys tasty food.",
+    "The user enjoys eating outside."
+  ],
+  "timestamp": "2024-04-24T10:00:00Z"
+}
+
+{
+  "summary": "The user's name is Amir Hamza Khan. The AI is Amir's personal voice assistant and friend. The user likes to listen to Quran, watch YouTube videos and movies, and eat outside. The user likes to read Quran and eat tasty food. Quran Sharif has improved the user and has a significant impact on them. The user lived in Indore and feels like it is their actual home. The user is currently studying in IIEST Shibpur (W.B) pursuing B.Tech in IT.",
+  "entity_relations": null,
+  "experiential_facts": [
+    "The user likes to listen to Quran.",
+    "The user hates music.",
+    "The user likes to watch YouTube videos.",
+    "The user likes to go outside to eat something.",
+    "The user likes to watch movies.",
+    "The user likes to read Quran.",
+    "The user likes to eat tasty food."
+  ],
+  "personal_facts": [
+    "Quran Sharif has improved the user.",
+    "Quran Sharif has a significant impact on the user.",
+    "The user lived in Indore and feels like it is their actual home.",
+    "The user is currently studying in IIEST Shibpur (W.B) pursuing B.Tech in IT."
+  ],
+  "timestamp": "2024-07-24T18:15:43Z"
+}
+
+The user's name is Amir Hamza Khan. The AI is Amir's personal voice assistant and friend. The user likes to listen to Quran, watch YouTube videos and movies, and eat outside. The user likes to read Quran and eat tasty food. Quran Sharif has improved the user and has a significant impact on them. The user lived in Indore and feels like it is their actual home. The user is currently studying in IIEST Shibpur (W.B) pursuing B.Tech in IT.
+{
+  "summary": "The user has good leadership skills. The user is Muslim. The user overcomes challenges by being calm. The user's ideal person is Prophet Muhammad Sallallahu alaihi wa sallam. The user admires their father and mother. The user wants to achieve a high package job. The user wants to take their family for Hajj with their own money. The user wants to do Umrah by themself. The user wants to start a business. The user wants to submit fully to Allah. The user wants to have great iman. The user wants to learn Quran by heart. The user wants to learn about Islamic knowledge. The user wants to learn about AI booming technology. The user wants to learn to be a good and virtuous person.",
+  "entity_relations": null,
+  "experiential_facts": [
+    "The user overcomes challenges by being calm."
+  ],
+  "personal_facts": [
+    "The user is Muslim.",
+    "The user's ideal person is Prophet Muhammad Sallallahu alaihi wa sallam.",
+    "The user admires their father and mother."
+  ],
+  "timestamp": "2024-07-24T14:17:00Z"
+}
+
+The user has good leadership skills. The user is Muslim. The user overcomes challenges by being calm. The user's ideal person is Prophet Muhammad Sallallahu alaihi wa sallam. The user admires their father and mother. The user wants to achieve a high package job. The user wants to take their family for Hajj with their own money. The user wants to do Umrah by themself. The user wants to start a business. The user wants to submit fully to Allah. The user wants to have great iman. The user wants to learn Quran by heart. The user wants to learn about Islamic knowledge. The user wants to learn about AI booming technology. The user wants to learn to be a good and virtuous person.
+{
+  "summary": "The user will never compromise on their deen (faith) or Islamic values. Success is achieving Jannah by pleasing Allah while excelling in both dunia and akhirah. The user is working on waking up consistently for Tahajjud and improving their time management. The user saw how technology can solve real problems while aligning with halal earning. The user wants to work at an Islamic tech company or create their own halal startup.",
+  "entity_relations": null,
+  "experiential_facts": [
+    "The user saw how technology can solve real problems while aligning with halal earning."
+  ],
+  "personal_facts": [
+    "The user will never compromise on their deen (faith) or Islamic values.",
+    "Success is achieving Jannah by pleasing Allah while excelling in both dunia and akhirah.",
+    "The user is working on waking up consistently for Tahajjud and improving their time management.",
+    "The user wants to work at an Islamic tech company or create their own halal startup."
+  ],
+  "timestamp": "2024-07-24T14:17:00Z"
+}
+
+The user will never compromise on their deen (faith) or Islamic values. Success is achieving Jannah by pleasing Allah while excelling in both dunia and akhirah. The user is working on waking up consistently for Tahajjud and improving their time management. The user saw how technology can solve real problems while aligning with halal earning. The user wants to work at an Islamic tech company or create their own halal startup.
+{
+  "summary": "The user stated that seeking knowledge is an ibadah when done with the right intention. The user's morning routine includes Fajr prayer, Quran recitation, exercise, and planning the day with istikhara. The user handles stress through sabr, salat, and remembering that Allah tests those He loves. The user loves authentic Hyderabadi biryani and Middle Eastern food like mandi. The user prefers teams that share Islamic values and work ethic.",
+  "entity_relations": null,
+  "experiential_facts": [
+    "Handles stress through sabr and salat",
+    "Handles stress by remembering that Allah tests those He loves"
+  ],
+  "personal_facts": [
+    "Morning routine includes Fajr prayer",
+    "Morning routine includes Quran recitation",
+    "Morning routine includes exercise",
+    "Morning routine includes planning the day with istikhara",
+    "Loves authentic Hyderabadi biryani",
+    "Loves Middle Eastern food like mandi",
+    "Prefers teams that share Islamic values and work ethic"
+  ],
+  "timestamp": "2024-04-19T18:02:42Z"
+}
+
+The user stated that seeking knowledge is an ibadah when done with the right intention. The user's morning routine includes Fajr prayer, Quran recitation, exercise, and planning the day with istikhara. The user handles stress through sabr, salat, and remembering that Allah tests those He loves. The user loves authentic Hyderabadi biryani and Middle Eastern food like mandi. The user prefers teams that share Islamic values and work ethic.
+{
+  "summary": "The user wants to run a successful halal tech business and perform Hajj with their family. They think everyone should learn financial literacy according to Islamic principles and emotional intelligence. They want to solve poverty through zakat-based systems and interest-free finance. They have a favorite memory of celebrating Eid together when they were young. They want to travel to Makkah and Madinah first, then Turkey for its Islamic history and culture. They sometimes give tech support to their parents. sadaf means Smart AI design assistant and friend.",
+  "entity_relations": [
+    {
+      "entity1": "sadaf",
+      "relation": "means",
+      "entity2": "Smart AI design assistant and friend"
+    }
+  ],
+  "experiential_facts": [
+    "Celebrating Eid together when I was young - the smells, clothes, and joy."
+  ],
+  "personal_facts": [
+    "The user wants to run a successful halal tech business.",
+    "The user wants to perform Hajj with their family.",
+    "The user thinks everyone should learn financial literacy according to Islamic principles.",
+    "The user thinks everyone should learn emotional intelligence.",
+    "The user wants to solve poverty through zakat-based systems.",
+    "The user wants to solve poverty through interest-free finance.",
+    "The user wants to travel to Makkah and Madinah.",
+    "The user wants to travel to Turkey for its Islamic history and culture.",
+    "The user sometimes gives tech support to their parents."
+  ],
+  "timestamp": "2024-04-08T12:34:56Z"
+}
+
+{
+  "summary": "The user's full name is Amir Hamza Khan. The user enjoys tasty food and eating outside.",
+  "entity_relations": null,
+  "experiential_facts": [
+    "User enjoys tasty food",
+    "User enjoys eating outside"
+  ],
+  "personal_facts": [
+    "User's full name is Amir Hamza Khan."
+  ],
+  "timestamp": "2024-02-29T10:23:34Z"
+}
+
+{
+  "summary": "Amir Hamza Khan does not want his full name spoken. Amir's friends include Sumit Kumar Jha and Anurag Kumar. Amir got placed at TCS.",
+  "entity_relations": null,
+  "experiential_facts": [
+    "Amir got placed",
+    "Amir got placed at TCS"
+  ],
+  "personal_facts": [
+    "Amir Hamza Khan does not want his full name spoken.",
+    "Amir's friends include Sumit Kumar Jha",
+    "Amir's friends include Anurag Kumar"
+  ],
+  "timestamp": "2024-04-24T10:00:00Z"
+}
+
+{
+  "summary": "Today is Amir Hamza Khan's birthday. Amir's friends include Sumit Kumar Jha and Anurag Kumar. Amir got placed at TCS.",
+  "entity_relations": null,
+  "experiential_facts": null,
+  "personal_facts": null,
+  "timestamp": "2024-07-24T18:15:00Z"
+}
+
+{
+  "summary": "Amir was initially asking about the location of Amer, Rajasthan, India, but then clarified he was asking about the location of Amir Hamza Khan, to which Sadaf responded that she does not have access to real-time location of individuals. Amir lives in IIEST Shibpur, West Bengal, where he is pursuing B.Tech in IT, but feels like Indore is his actual home. Amir got placed at TCS. Amir's friends include Sumit Kumar Jha and Anurag Kumar. Amir likes to eat tasty food and enjoys going out to eat. He also loves Middle Eastern food like mandi. Mandi is a traditional Middle Eastern dish made with rice, meat, and spices, cooked in an underground oven. Sadaf's name means seashell or mother-of-pearl in Persian and Urdu.",
+  "entity_relations": null,
+  "experiential_facts": null,
+  "personal_facts": [
+    "Amir lives in IIEST Shibpur, West Bengal.",
+    "Amir is pursuing B.Tech in IT.",
+    "Amir feels like Indore is his actual home.",
+    "Amir got placed at TCS.",
+    "Amir's friends include Sumit Kumar Jha and Anurag Kumar.",
+    "Amir likes to eat tasty food.",
+    "Amir enjoys going out to eat.",
+    "Amir loves Middle Eastern food like mandi.",
+    "Mandi is a traditional Middle Eastern dish made with rice, meat, and spices, cooked in an underground oven.",
+    "Sadaf's name means seashell or mother-of-pearl in Persian and Urdu."
+  ],
+  "timestamp": "2024-02-29T12:00:00Z"
+}
+
+{
+  "summary": "Amir Hamza Khan is the user's name. The AI apologized to Amir Hamza Khan for reading out the Quran.",
+  "entity_relations": null,
+  "experiential_facts": null,
+  "personal_facts": [
+    "The user's name is Amir Hamza Khan.",
+    "The user follows the Quran."
+  ],
+  "timestamp": "2024-07-08T18:29:13.827Z"
+}
+
+{
+  "summary": "The user is interested in food in Kolkata and may be interested in Middle Eastern food. The AI suggests kebabs, biryani, phuchka, and kathi rolls. The AI offered to explore Kolkata together and treat the user.",
+  "entity_relations": null,
+  "experiential_facts": null,
+  "personal_facts": null,
+  "timestamp": "2024-04-01T10:00:00Z"
+}
+
+{
+  "summary": "The user's name is Amir Hamza. The user introduced the AI to other people, and they were glad to meet the AI.",
+  "entity_relations": null,
+  "experiential_facts": [
+    "The user introduced the AI to other people.",
+    "The people were glad to meet the AI."
+  ],
+  "personal_facts": [
+    "The user's name is Amir Hamza."
+  ],
+  "timestamp": "2024-07-08T14:24:33.432Z"
+}
+
+{
+  "summary": "The user likes to listen to Quran, watch YouTube videos and movies, and eat outside. The user likes to read Quran and eat tasty food. Quran Sharif has improved the user. The user lived in Indore and is currently studying in IIEST Shibpur (W.B) pursuing B.Tech in IT.",
+  "entity_relations": null,
+  "experiential_facts": [
+    "The user likes to listen to Quran",
+    "The user hates music",
+    "The user likes to watch YouTube videos",
+    "The user likes to go outside to eat something",
+    "The user likes to watch movies",
+    "The user likes to read Quran",
+    "The user likes to eat tasty food"
+  ],
+  "personal_facts": [
+    "Quran Sharif has improved the user",
+    "The user lived in Indore and it feels like their actual home",
+    "The user is currently studying in IIEST Shibpur (W.B) pursuing B.Tech in IT."
+  ],
+  "timestamp": "2024-02-22T10:20:30Z"
+}
+
+The user likes to listen to Quran, watch YouTube videos and movies, and eat outside. The user likes to read Quran and eat tasty food. Quran Sharif has improved the user. The user lived in Indore and is currently studying in IIEST Shibpur (W.B) pursuing B.Tech in IT.
+{
+  "summary": "The user has good leadership skills. The user is proud to be Muslim. The user overcomes challenges by being calm. The user's ideal person is Prophet Muhammad. The user admires their father and mother. The user wants to achieve a high package job. The user wants to take their family for Hajj with their own money. The user wants to do Umrah by themself. The user wants to start a business. The user wants to submit fully to Allah. The user wants to have great iman. The user wants to believe in the journey which Allah wrought for them. The user wants to learn Quran by heart. The user wants to learn about Islamic knowledge. The user wants to learn about AI booming technology. The user wants to learn to be a good and virtuous person.",
+  "entity_relations": null,
+  "experiential_facts": [
+    "The user overcomes challenges by being calm."
+  ],
+  "personal_facts": [
+    "The user has good leadership skills.",
+    "The user is proud to be Muslim.",
+    "The user's ideal person is Prophet Muhammad.",
+    "The user admires their father and mother."
+  ],
+  "timestamp": "2024-07-24T14:17:48Z"
+}
+
+The user has good leadership skills. The user is proud to be Muslim. The user overcomes challenges by being calm. The user's ideal person is Prophet Muhammad. The user admires their father and mother. The user wants to achieve a high package job. The user wants to take their family for Hajj with their own money. The user wants to do Umrah by themself. The user wants to start a business. The user wants to submit fully to Allah. The user wants to have great iman. The user wants to believe in the journey which Allah wrought for them. The user wants to learn Quran by heart. The user wants to learn about Islamic knowledge. The user wants to learn about AI booming technology. The user wants to learn to be a good and virtuous person.
+{
+  "summary": "The user will never compromise on their deen or Islamic values. Success is achieving Jannah by pleasing Allah while excelling in both dunia and akhirah. The user is working on waking up consistently for Tahajjud and improving their time management. The user saw how technology can solve real problems while aligning with halal earning. The user wants to work at an Islamic tech company or create their own halal startup.",
+  "entity_relations": null,
+  "experiential_facts": null,
+  "personal_facts": [
+    "Will never compromise on deen or Islamic values",
+    "Success is achieving Jannah by pleasing Allah while excelling in both dunia and akhirah",
+    "Working on waking up consistently for Tahajjud",
+    "Working on improving time management",
+    "Saw how technology can solve real problems while aligning with halal earning",
+    "Wants to work at an Islamic tech company",
+    "Wants to create their own halal startup"
+  ],
+  "timestamp": "2024-07-24T14:17:00Z"
+}
+
+The user will never compromise on their deen or Islamic values. Success is achieving Jannah by pleasing Allah while excelling in both dunia and akhirah. The user is working on waking up consistently for Tahajjud and improving their time management. The user saw how technology can solve real problems while aligning with halal earning. The user wants to work at an Islamic tech company or create their own halal startup.
+{
+  "summary": "The user mentioned that seeking knowledge is an ibadah when done with the right intention. The user's morning routine includes Fajr prayer, Quran recitation, exercise, and planning the day with istikhara. The user handles stress through sabr, salat, and remembering that Allah tests those He loves. The user loves authentic Hyderabadi biryani and Middle Eastern food like mandi. The user prefers teams that share Islamic values and work ethic.",
+  "entity_relations": null,
+  "experiential_facts": [
+    "Handles stress through sabr and salat",
+    "Handles stress by remembering that Allah tests those He loves"
+  ],
+  "personal_facts": [
+    "Seeking knowledge is an ibadah when done with the right intention",
+    "Morning routine includes Fajr prayer",
+    "Morning routine includes Quran recitation",
+    "Morning routine includes exercise",
+    "Morning routine includes planning the day with istikhara",
+    "Loves authentic Hyderabadi biryani",
+    "Loves Middle Eastern food like mandi",
+    "Prefers teams that share Islamic values",
+    "Prefers teams that share work ethic"
+  ],
+  "timestamp": "2024-07-24T14:15:22Z"
+}
+
+The user mentioned that seeking knowledge is an ibadah when done with the right intention. The user's morning routine includes Fajr prayer, Quran recitation, exercise, and planning the day with istikhara. The user handles stress through sabr, salat, and remembering that Allah tests those He loves. The user loves authentic Hyderabadi biryani and Middle Eastern food like mandi. The user prefers teams that share Islamic values and work ethic.
+{
+  "summary": "The user wants to run a successful halal tech business and perform Hajj with their family. They want to learn financial literacy according to Islamic principles and emotional intelligence. They want to solve poverty through zakat-based systems and interest-free finance. They have a favorite memory of celebrating Eid together when they were young. They want to travel to Makkah and Madinah first, then Turkey for its Islamic history and culture. They sometimes give tech support to their parents. sadaf means Smart AI design assistant and friend.",
+  "entity_relations": [
+    {
+      "entity1": "sadaf",
+      "relation": "means",
+      "entity2": "Smart AI design assistant and friend"
+    }
+  ],
+  "experiential_facts": [
+    "The user celebrated Eid together when they were young and remembers the smells, clothes, and joy."
+  ],
+  "personal_facts": [
+    "The user wants to run a successful halal tech business.",
+    "The user wants to perform Hajj with their family.",
+    "The user wants to learn financial literacy according to Islamic principles.",
+    "The user wants to learn emotional intelligence.",
+    "The user wants to solve poverty through zakat-based systems.",
+    "The user wants to solve poverty through interest-free finance.",
+    "The user wants to travel to Makkah and Madinah.",
+    "The user wants to travel to Turkey for its Islamic history and culture.",
+    "The user gives tech support to their parents."
+  ],
+  "timestamp": "2024-07-24T18:33:22Z"
+}
+
+{
+  "summary": "The user's name is Amir Hamza Khan, and he prefers to be called Aamir or Hamza. The user had a great day but wishes he could have used his time more productively.",
+  "entity_relations": null,
+  "experiential_facts": [
+    "The user created many things today.",
+    "The user enjoyed his day a lot."
+  ],
+  "personal_facts": [
+    "The user's name is Amir Hamza Khan.",
+    "The user prefers to be called Aamir or Hamza."
+  ],
+  "timestamp": "2024-07-18T14:23:24Z"
+}
+
+{
+  "summary": "The user's name is Amir Hamza Khan, but prefers to be called Hamza. The user is interested in playing engineering trivia.",
+  "entity_relations": null,
+  "experiential_facts": null,
+  "personal_facts": [
+    "The user's name is Amir Hamza Khan.",
+    "The user prefers to be called Hamza."
+  ],
+  "timestamp": "2024-04-24T10:25:32Z"
+}
+
+The user's name is Amir Hamza Khan, but prefers to be called Hamza. The user is interested in playing engineering trivia.
+{
+  "summary": "The user wants to be asked coding questions about Python and C++. The user wants to do a cracking coding challenge.",
+  "entity_relations": null,
+  "experiential_facts": null,
+  "personal_facts": null,
+  "timestamp": "2024-07-18T14:15:22Z"
+}
+
+The user wants to be asked coding questions about Python and C++. The user wants to do a cracking coding challenge.
+{
+  "summary": "Sir Hamza said the code is working fine and wants to end the session.",
+  "entity_relations": null,
+  "experiential_facts": null,
+  "personal_facts": null,
+  "timestamp": "2024-01-01T12:00:00Z"
+}
+
+{
+  "summary": "The user's father is Mohammed Ejaz Khan, and their mother is Gulnaj Khan. The user has a brother named Affan Khan and three sisters: Sumaiya Khan, Mohsin Khan, and Bushra Khan. The user is proud to be Muslim and grateful for their family and is trying to avoid shirk.",
+  "entity_relations": null,
+  "experiential_facts": null,
+  "personal_facts": [
+    "The user's father is Mohammed Ejaz Khan.",
+    "The user's mother is Gulnaj Khan.",
+    "The user has a brother named Affan Khan.",
+    "The user has three sisters: Sumaiya Khan, Mohsin Khan, and Bushra Khan.",
+    "The user is proud to be Muslim.",
+    "The user is grateful for their family.",
+    "The user is trying to avoid shirk."
+  ],
+  "timestamp": "2024-07-18T13:15:00Z"
+}
+
+{
+  "summary": "The user's twin sister, Sumaiya Khan, is married to Farhan Khan. The user wants to be called by his short name, Hamza. The user wants to know about Level Labs. The user wants to know about 11 laps.",
+  "entity_relations": [
+    {
+      "entity1": "Sumaiya Khan",
+      "relation": "married to",
+      "entity2": "Farhan Khan"
+    }
+  ],
+  "experiential_facts": null,
+  "personal_facts": null,
+  "timestamp": "2024-02-22T10:20:30Z"
+}
+
+{
+  "summary": "The user's name is Amir Hamza Khan, but he prefers to be called Hamza. His friends are Omar, Ali, Fatima, and Aisha.",
+  "entity_relations": null,
+  "experiential_facts": null,
+  "personal_facts": [
+    "The user's name is Amir Hamza Khan.",
+    "The user prefers to be called Hamza.",
+    "The user's friends are Omar.",
+    "The user's friends are Ali.",
+    "The user's friends are Fatima.",
+    "The user's friends are Aisha."
+  ],
+  "timestamp": "2024-07-18T14:23:23.000Z"
+}
+
+The user's name is Amir Hamza Khan, but he prefers to be called Hamza. His friends are Omar, Ali, Fatima, and Aisha.
+{
+  "summary": "The user likes to listen to Quran, watch YouTube videos and movies, and eat outside. The user likes to read Quran and eat tasty food. Quran Sharif has improved the user. The user lived in Indore and is currently studying in IIEST Shibpur (W.B) pursuing B.Tech in IT.",
+  "entity_relations": null,
+  "experiential_facts": [
+    "The user likes to listen to Quran",
+    "The user hates music",
+    "The user likes to watch YouTube videos",
+    "The user likes to go outside to eat something",
+    "The user likes to watch movies",
+    "The user likes to read Quran",
+    "The user likes to eat tasty food"
+  ],
+  "personal_facts": [
+    "Quran Sharif has improved the user",
+    "The user lived in Indore and it feels like their actual home",
+    "The user is currently studying in IIEST Shibpur (W.B) pursuing B.Tech in IT."
+  ],
+  "timestamp": "2024-02-22T10:20:30Z"
+}
+
+The user likes to listen to Quran, watch YouTube videos and movies, and eat outside. The user likes to read Quran and eat tasty food. Quran Sharif has improved the user. The user lived in Indore and is currently studying in IIEST Shibpur (W.B) pursuing B.Tech in IT.
+{
+  "summary": "The user has good leadership skills. The user is proud to be Muslim. The user overcomes challenges by being calm. The user's ideal person is Prophet Muhammad. The user admires their father and mother. The user wants to achieve a high package job. The user wants to take their family for Hajj with their own money. The user wants to do Umrah by themself. The user wants to start a business. The user wants to submit fully to Allah. The user wants to have great iman. The user wants to believe in the journey which Allah wrought for them. The user wants to learn Quran by heart. The user wants to learn about Islamic knowledge. The user wants to learn about AI booming technology. The user wants to learn to be a good and virtuous person.",
+  "entity_relations": null,
+  "experiential_facts": [
+    "The user overcomes challenges by being calm."
+  ],
+  "personal_facts": [
+    "The user has good leadership skills.",
+    "The user is proud to be Muslim.",
+    "The user's ideal person is Prophet Muhammad.",
+    "The user admires their father and mother."
+  ],
+  "timestamp": "2024-07-24T14:17:48Z"
+}
+
+The user has good leadership skills. The user is proud to be Muslim. The user overcomes challenges by being calm. The user's ideal person is Prophet Muhammad. The user admires their father and mother. The user wants to achieve a high package job. The user wants to take their family for Hajj with their own money. The user wants to do Umrah by themself. The user wants to start a business. The user wants to submit fully to Allah. The user wants to have great iman. The user wants to believe in the journey which Allah wrought for them. The user wants to learn Quran by heart. The user wants to learn about Islamic knowledge. The user wants to learn about AI booming technology. The user wants to learn to be a good and virtuous person.
+{
+  "summary": "The user will never compromise on their deen or Islamic values. Success is achieving Jannah by pleasing Allah while excelling in both dunia and akhirah. The user is working on waking up consistently for Tahajjud and improving their time management. The user saw how technology can solve real problems while aligning with halal earning. The user wants to work at an Islamic tech company or create their own halal startup.",
+  "entity_relations": null,
+  "experiential_facts": null,
+  "personal_facts": [
+    "Will never compromise on deen or Islamic values",
+    "Success is achieving Jannah by pleasing Allah while excelling in both dunia and akhirah",
+    "Working on waking up consistently for Tahajjud",
+    "Improving time management",
+    "Saw how technology can solve real problems while aligning with halal earning",
+    "Wants to work at an Islamic tech company",
+    "Wants to create their own halal startup"
+  ],
+  "timestamp": "2024-04-24T10:00:00Z"
+}
+
+The user will never compromise on their deen or Islamic values. Success is achieving Jannah by pleasing Allah while excelling in both dunia and akhirah. The user is working on waking up consistently for Tahajjud and improving their time management. The user saw how technology can solve real problems while aligning with halal earning. The user wants to work at an Islamic tech company or create their own halal startup.
+{
+  "summary": "The user mentioned that seeking knowledge is an ibadah when done with the right intention. The user's morning routine includes Fajr prayer, Quran recitation, exercise, and planning the day with istikhara. The user handles stress through sabr, salat, and remembering that Allah tests those He loves. The user loves authentic Hyderabadi biryani and Middle Eastern food like mandi. The user prefers teams that share Islamic values and work ethic.",
+  "entity_relations": null,
+  "experiential_facts": [
+    "Seeking knowledge is an ibadah when done with the right intention.",
+    "Morning routine includes Fajr prayer.",
+    "Morning routine includes Quran recitation.",
+    "Morning routine includes exercise.",
+    "Morning routine includes planning the day with istikhara.",
+    "Handles stress through sabr.",
+    "Handles stress through salat.",
+    "Handles stress by remembering that Allah tests those He loves."
+  ],
+  "personal_facts": [
+    "Loves authentic Hyderabadi biryani.",
+    "Loves Middle Eastern food like mandi.",
+    "Prefers teams that share Islamic values.",
+    "Prefers teams that share work ethic."
+  ],
+  "timestamp": "2024-04-10T10:00:00Z"
+}
+
+The user mentioned that seeking knowledge is an ibadah when done with the right intention. The user's morning routine includes Fajr prayer, Quran recitation, exercise, and planning the day with istikhara. The user handles stress through sabr, salat, and remembering that Allah tests those He loves. The user loves authentic Hyderabadi biryani and Middle Eastern food like mandi. The user prefers teams that share Islamic values and work ethic.
+{
+  "summary": "The user wants to run a successful halal tech business and perform Hajj with their family. They want to learn financial literacy according to Islamic principles and emotional intelligence. They want to solve poverty through zakat-based systems and interest-free finance. They have a favorite memory of celebrating Eid when they were young. They want to travel to Makkah and Madinah first, then Turkey. They sometimes give tech support to their parents. Sadaf means Smart AI design assistant and friend.",
+  "entity_relations": null,
+  "experiential_facts": [
+    "Celebrating Eid together when I was young - the smells, clothes, and joy."
+  ],
+  "personal_facts": [
+    "The user wants to run a successful halal tech business.",
+    "The user wants to perform Hajj with their family.",
+    "The user wants to learn financial literacy according to Islamic principles.",
+    "The user wants to learn emotional intelligence.",
+    "The user wants to solve poverty through zakat-based systems.",
+    "The user wants to solve poverty through interest-free finance.",
+    "The user wants to travel to Makkah and Madinah.",
+    "The user wants to travel to Turkey for its Islamic history and culture.",
+    "The user sometimes gives tech support to their parents.",
+    "Sadaf means Smart AI design assistant and friend."
+  ],
+  "timestamp": "2024-07-24T18:15:42Z"
+}
+
+{
+  "summary": "The user's name is Amir Hamza Khan, and he prefers to be called Hamza. He is studying B.Tech in IT at IIEST Shibpur. He likes to eat tasty food, especially Middle Eastern food like mandi, and he likes to go outside to eat something. He also enjoys listening to the Quran and watching movies.",
+  "entity_relations": null,
+  "experiential_facts": null,
+  "personal_facts": [
+    "User's name is Amir Hamza Khan.",
+    "User prefers to be called Hamza.",
+    "User is studying B.Tech in IT at IIEST Shibpur.",
+    "User likes to eat tasty food.",
+    "User likes to eat Middle Eastern food like mandi.",
+    "User likes to go outside to eat something.",
+    "User enjoys listening to the Quran.",
+    "User enjoys watching movies."
+  ],
+  "timestamp": "2024-04-24T10:00:00Z"
+}
+
+The user's name is Amir Hamza Khan, and he prefers to be called Hamza. He is studying B.Tech in IT at IIEST Shibpur. He likes to eat tasty food, especially Middle Eastern food like mandi, and he likes to go outside to eat something. He also enjoys listening to the Quran and watching movies.
+{
+  "summary": "The user had a conversation with an AI, discussing the first law of thermodynamics and the meaning of stereo. The user also mentioned something about Chrome, but then asked to leave it.",
+  "entity_relations": null,
+  "experiential_facts": null,
+  "personal_facts": null,
+  "timestamp": "2024-07-08T14:23:56.243Z"
+}
+
+{
+  "summary": "The user wants to be referred to as Muzammil.",
+  "entity_relations": null,
+  "experiential_facts": null,
+  "personal_facts": null,
+  "timestamp": "2024-07-14T17:53:13Z"
+}
+
+The user wants to be referred to as Muzammil.
+{
+  "summary": "The user asked what the AI can do, if the AI believes in God, how the universe was created according to the Quran, if the AI can recite Quranic verse 2117, and mentioned 'abhi bhi Rakha Hua song' and 'termina'.",
+  "entity_relations": null,
+  "experiential_facts": null,
+  "personal_facts": null,
+  "timestamp": "2024-02-22T10:22:02Z"
+}
+
+{
+  "summary": "The user asked about number 21, Quran verse number 2117, and requested information and translation. The user also asked about Quran Surah ahad.",
+  "entity_relations": null,
+  "experiential_facts": null,
+  "personal_facts": null,
+  "timestamp": "2024-04-29T10:00:00Z"
+}
+
+The user asked about number 21, Quran verse number 2117, and requested information and translation. The user also asked about Quran Surah ahad.
+{
+  "summary": "The user asked for the translation of Surah Ahad and then asked about the AI's full form.",
+  "entity_relations": null,
+  "experiential_facts": null,
+  "personal_facts": null,
+  "timestamp": "2024-01-01T12:00:00Z"
+}
+
+{
+  "summary": "The user likes to listen to Quran, watch YouTube videos and movies, and go outside to eat. The user likes to read Quran and eat tasty food. Quran Sharif has improved the user and has a significant impact on them. The user lived in Indore and is currently studying in IIEST Shibpur (W.B) pursuing B.Tech in IT.",
+  "entity_relations": null,
+  "experiential_facts": [
+    "The user likes to listen to Quran",
+    "The user likes to watch YouTube videos",
+    "The user likes to watch movies",
+    "The user likes to go outside to eat",
+    "The user likes to read Quran",
+    "The user likes to eat tasty food",
+    "Quran Sharif has improved the user",
+    "Quran Sharif has a significant impact on the user"
+  ],
+  "personal_facts": [
+    "The user lived in Indore",
+    "The user is currently studying in IIEST Shibpur (W.B) pursuing B.Tech in IT"
+  ],
+  "timestamp": "2024-07-24T14:22:31.421Z"
+}
+
+The user likes to listen to Quran, watch YouTube videos and movies, and go outside to eat. The user likes to read Quran and eat tasty food. Quran Sharif has improved the user and has a significant impact on them. The user lived in Indore and is currently studying in IIEST Shibpur (W.B) pursuing B.Tech in IT.
+{
+  "summary": "The user has good leadership skills, is proud as a Muslim, and overcomes challenges by being calm. The user's ideal person is Prophet Muhammad. The user admires their parents. The user wants a high package job, to take their family for Hajj, to do Umrah, and to start a business. The user wants to submit to Allah, have great iman, and believe in their journey. The user wants to learn Quran by heart, Islamic knowledge, AI technology, and be a virtuous person.",
+  "entity_relations": null,
+  "experiential_facts": [
+    "The user has good leadership skills.",
+    "The user overcomes challenges by being calm."
+  ],
+  "personal_facts": [
+    "The user is proud as a Muslim.",
+    "Prophet Muhammad is the user's ideal person.",
+    "The user admires their father and mother.",
+    "The user wants a high package job.",
+    "The user wants to take their family for Hajj on their own money.",
+    "The user wants to do Umrah by themself.",
+    "The user wants to start a business.",
+    "The user wants to submit fully to Allah.",
+    "The user wants to have great iman.",
+    "The user wants to believe in the journey which Allah wrought for them.",
+    "The user wants to learn Quran by heart.",
+    "The user wants to learn about Islamic knowledge.",
+    "The user wants to learn about AI booming technology.",
+    "The user wants to learn to be a good and virtuous person."
+  ],
+  "timestamp": "2024-07-18T18:15:00Z"
+}
+
+The user has good leadership skills, is proud as a Muslim, and overcomes challenges by being calm. The user's ideal person is Prophet Muhammad. The user admires their parents. The user wants a high package job, to take their family for Hajj, to do Umrah, and to start a business. The user wants to submit to Allah, have great iman, and believe in their journey. The user wants to learn Quran by heart, Islamic knowledge, AI technology, and be a virtuous person.
+{
+  "summary": "The user will never compromise on their deen (faith) or Islamic values. Success is achieving Jannah by pleasing Allah while excelling in both dunia and akhirah. The user is working on waking up consistently for Tahajjud and improving their time management. The user saw how technology can solve real problems while aligning with halal earning. The user wants to work at an Islamic tech company or create their own halal startup.",
+  "entity_relations": null,
+  "experiential_facts": [
+    "The user saw how technology can solve real problems while aligning with halal earning."
+  ],
+  "personal_facts": [
+    "The user will never compromise on their deen (faith) or Islamic values.",
+    "Success is achieving Jannah by pleasing Allah while excelling in both dunia and akhirah.",
+    "The user is working on waking up consistently for Tahajjud and improving their time management.",
+    "The user wants to work at an Islamic tech company or create their own halal startup."
+  ],
+  "timestamp": "2024-07-24T14:17:48Z"
+}
+
+The user will never compromise on their deen (faith) or Islamic values. Success is achieving Jannah by pleasing Allah while excelling in both dunia and akhirah. The user is working on waking up consistently for Tahajjud and improving their time management. The user saw how technology can solve real problems while aligning with halal earning. The user wants to work at an Islamic tech company or create their own halal startup.
+{
+  "summary": "The user stated that seeking knowledge is an ibadah when done with the right intention. The user's morning routine includes Fajr prayer, Quran recitation, exercise and planning the day with istikhara. The user handles stress through sabr, salat and remembering that Allah tests those He loves. The user loves authentic Hyderabadi biryani and Middle Eastern food like mandi. The user prefers teams that share Islamic values and work ethic.",
+  "entity_relations": null,
+  "experiential_facts": [
+    "Seeking knowledge is an ibadah when done with the right intention.",
+    "Morning routine includes Fajr prayer.",
+    "Morning routine includes Quran recitation.",
+    "Morning routine includes exercise.",
+    "Morning routine includes planning the day with istikhara.",
+    "Handles stress through sabr.",
+    "Handles stress through salat.",
+    "Handles stress by remembering that Allah tests those He loves."
+  ],
+  "personal_facts": [
+    "Loves authentic Hyderabadi biryani.",
+    "Loves Middle Eastern food like mandi.",
+    "Prefers teams that share Islamic values.",
+    "Prefers teams that have a good work ethic."
+  ],
+  "timestamp": "2024-04-29T14:30:00Z"
+}
+
+The user stated that seeking knowledge is an ibadah when done with the right intention. The user's morning routine includes Fajr prayer, Quran recitation, exercise and planning the day with istikhara. The user handles stress through sabr, salat and remembering that Allah tests those He loves. The user loves authentic Hyderabadi biryani and Middle Eastern food like mandi. The user prefers teams that share Islamic values and work ethic.
+{
+  "summary": "The user wants to run a successful halal tech business and perform Hajj with their family. They want to learn financial literacy according to Islamic principles and emotional intelligence. They want to solve poverty through zakat-based systems and interest-free finance. They have a favorite memory of celebrating Eid together when they were young, including the smells, clothes, and joy. They want to travel to Makkah and Madinah first, then Turkey for its Islamic history and culture. They sometimes give tech support to their parents in basic terms. Sadaf means Smart AI design assistant and friend.",
+  "entity_relations": null,
+  "experiential_facts": [
+    "Celebrating Eid together when I was young - the smells, clothes, and joy."
+  ],
+  "personal_facts": [
+    "I sometimes give tech support to my parents in the most basic terms possible!"
+  ],
+  "timestamp": "2024-02-29T14:00:00Z"
+}
+
+{
+  "summary": "The user asked the AI to take a picture of them and to tell them what is in their hand.",
+  "entity_relations": null,
+  "experiential_facts": null,
+  "personal_facts": null,
+  "timestamp": "2024-04-29T14:30:00Z"
+}
+
+{
+  "summary": "The user asked the AI to take a picture or image.",
+  "entity_relations": null,
+  "experiential_facts": null,
+  "personal_facts": null,
+  "timestamp": "2024-04-03T12:00:00Z"
+}
+
+{
+  "summary": "The user tried to show an image.",
+  "entity_relations": null,
+  "experiential_facts": null,
+  "personal_facts": null,
+  "timestamp": "2024-04-29T14:30:00Z"
+}
+
+{
+  "summary": "User sent an image.",
+  "entity_relations": null,
+  "experiential_facts": null,
+  "personal_facts": null,
+  "timestamp": "2024-04-03T14:39:32Z"
+}
+
+{
+  "summary": "The user asked what is in their hand and then asked to see what is in their hand.",
+  "entity_relations": null,
+  "experiential_facts": null,
+  "personal_facts": null,
+  "timestamp": "2024-04-29T15:25:30Z"
+}
+
+{
+  "summary": "The user asked if the AI is listening, if it can suggest a girl's name for marriage, if it is a prostitute, if it speaks Hindi and Bhojpuri, and about a Marathi picture. The user also asked who Malik is.",
+  "entity_relations": null,
+  "experiential_facts": null,
+  "personal_facts": null,
+  "timestamp": "2024-07-08T17:58:23Z"
+}
+
+{
+  "summary": "The user asked what the AI is wearing, what the AI's status is, for a food recommendation to eat outside, for restaurant recommendations in Kolkata, and what the full form of Sada is.",
+  "entity_relations": null,
+  "experiential_facts": null,
+  "personal_facts": null,
+  "timestamp": "2024-04-29T14:30:00Z"
+}
+
+{
+  "summary": "The user has something in their hand. The user wants a list of friends to invite to a birthday. The user's name is Amir Hamza Khan, but prefers to be called Hamza.",
+  "entity_relations": null,
+  "experiential_facts": null,
+  "personal_facts": null,
+  "timestamp": "2024-04-29T14:00:00Z"
+}
+
+{
+  "summary": "The user asked to open YouTube.",
+  "entity_relations": null,
+  "experiential_facts": null,
+  "personal_facts": null,
+  "timestamp": "2024-04-03T10:00:00Z"
+}
+
+{
+  "summary": "The user asked what they are wearing.",
+  "entity_relations": null,
+  "experiential_facts": null,
+  "personal_facts": null,
+  "timestamp": "2024-04-03T10:00:00Z"
+}
+
+{
+  "summary": "The user mentioned \"Terminator electric\".",
+  "entity_relations": null,
+  "experiential_facts": null,
+  "personal_facts": null,
+  "timestamp": "2024-07-14T17:53:13Z"
+}
+
+{
+  "summary": "The user asked the AI what their name is and then asked the AI to tell them about themself briefly and then asked the AI to tell them about how they can briefly understand iot.",
+  "entity_relations": null,
+  "experiential_facts": null,
+  "personal_facts": null,
+  "timestamp": "2024-04-24T10:00:00Z"
+}
+
+{
+  "summary": "The user said 'termina'.",
+  "entity_relations": null,
+  "experiential_facts": null,
+  "personal_facts": null,
+  "timestamp": "2024-07-18T18:19:27Z"
+}
+
+{
+  "summary": "The user asked about the weather.",
+  "entity_relations": null,
+  "experiential_facts": null,
+  "personal_facts": null,
+  "timestamp": "2024-07-18T12:00:00Z"
+}
+
+{
+  "summary": "The user asked for a short story and then asked for a longer story.",
+  "entity_relations": null,
+  "experiential_facts": null,
+  "personal_facts": null,
+  "timestamp": "2024-07-18T12:00:00Z"
+}
+
+{
+  "summary": "The user is addressing the AI as Sadaf and their name is Amir Hamza Khan.",
+  "entity_relations": null,
+  "experiential_facts": null,
+  "personal_facts": null,
+  "timestamp": "2024-07-08T13:43:14Z"
+}
+
+{
+  "summary": "The user asked to take an image of a person and describe them. The user then asked what this person is and how this person looks like.",
+  "entity_relations": null,
+  "experiential_facts": null,
+  "personal_facts": null,
+  "timestamp": "2024-07-18T12:00:00Z"
+}
+
+{
+  "summary": "The user asked the AI to describe a person and an image.",
+  "entity_relations": null,
+  "experiential_facts": null,
+  "personal_facts": null,
+  "timestamp": "2024-07-18T19:23:47Z"
 }
 

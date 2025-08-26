@@ -1,4 +1,4 @@
 1. dynamic personality change (we do it by having semantic simalrity between query and personalities vector)
-2. make extraction as list of semantically different
-3. avoid duplicate and have ask for contradictory information
-
+2. avoid duplicate and have ask for contradictory information
+3. improve the latency of stt and tts plus use interuption
+4. in main currently stream of input but we can make llm to send response in list and then play it with delay just like human do
